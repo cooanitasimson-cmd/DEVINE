@@ -1,0 +1,16 @@
+{
+  "name": "devine",
+  "private": true,
+  "packageManager": "pnpm@10.12.4",
+  "scripts": {
+    "bootstrap": "node ./tools/pnpm.mjs install",
+    "dev:web": "node ./tools/pnpm.mjs --filter web dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test"
+  },
+  "devDependencies": {
+    "turbo": "^2.1.1",
+    "typescript": "^5.4.5"
+  }
+}
